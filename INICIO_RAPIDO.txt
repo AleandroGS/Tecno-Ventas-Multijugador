@@ -1,0 +1,41 @@
+TECNO VENTAS - JUEGO MULTIJUGADOR EN VIVO
+=====================================
+
+Esta version SI permite jugar simultaneamente desde distintos celulares,
+pero primero necesita un servidor que la mantenga encendida.
+No basta con abrir public/index.html ni con subir solo ese archivo.
+
+PARA COMPARTIRLO EN INTERNET (RECOMENDADO)
+1. Crea una cuenta en github.com y otra en render.com.
+2. Crea un repositorio de GitHub y sube estos archivos tal cual:
+   server.js, package.json, render.yaml, README.md y la carpeta public.
+3. En Render, elige New > Web Service, conecta el repositorio.
+4. Comando de instalacion: npm install
+   Comando de inicio: npm start
+   Runtime: Node.
+5. Cuando aparezca la URL https://...onrender.com, abrela.
+6. En tu computador: Soy el profesor > Crear sala.
+7. Comparte el enlace o el codigo que aparece en pantalla.
+8. Los estudiantes entran desde sus celulares y escriben sus nombres.
+9. Escoge Gran circuito y presiona Empezar. Veras puntos en tiempo real.
+
+PARA PROBARLO EN TU COMPUTADOR
+Instala Node.js 20 o superior desde nodejs.org, descomprime el ZIP
+abre una terminal dentro de la carpeta y ejecuta: npm start
+Abre http://localhost:3000 desde el mismo computador.
+En la MISMA red Wi-Fi, tus alumnos pueden abrir http://IP-LOCAL:3000
+(consulta IP-LOCAL con ipconfig en Windows; ejemplo: 192.168.1.10).
+Si no acceden, revisa el firewall o aislamiento de red.
+
+LAS PRUEBAS
+Quiz de preguntas rapidas; sopa de letras (palabras cortas);
+rompecabezas de palabras; parejas de memoria y circuito completo.
+El docente controla las rondas. Los alumnos juegan todos a la vez.
+
+NOTA IMPORTANTE
+Una URL publica NO se ha creado todavia: el proyecto esta listo
+para publicarse, pero el enlace depende de la cuenta de alojamiento.
+Las salas y puntos se guardan en memoria: reiniciar el servidor
+borra la partida. Una plataforma gratuita puede entrar en reposo.
+
+Lee README.md para mas detalles y recomendaciones.
